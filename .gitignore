@@ -1,0 +1,24 @@
+# General
+.DS_Store
+*.log
+
+# Environment files
+.env
+backend/.env
+
+# Python / FastAPI backend
+backend/.venv/
+backend/venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Angular frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+
+# IDE / Editor
+.idea/
+.vscode/
